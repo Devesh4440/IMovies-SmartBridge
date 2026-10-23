@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment and configuration files (Keep your database credentials secure)
+.env
+server/.env
+client/.env
+
+# Build outputs and production bundles
+dist/
+build/
+client/dist/
+server/dist/
+
+# Logs and debugging files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
